@@ -11,7 +11,7 @@ patchesStrategicMerge:
 resources:
 - ingress.yaml
 images:
-- name: manuelmagic/java-hello-world
+- name: dennydgl1/java-hello-world
   newName: manuelmagic/java-hello-world
   newTag: "3.0"
 configMapGenerator:
