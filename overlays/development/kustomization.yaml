@@ -13,7 +13,7 @@ resources:
 images:
 - name: dennydgl1/java-hello-world
   newName: manuelmagic/java-hello-world
-  newTag: "3.0"
+  newTag: "my-feature-1"
 configMapGenerator:
  - behavior: merge
    name: java-hello-world-cm
